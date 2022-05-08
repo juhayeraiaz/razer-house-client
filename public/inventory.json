@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Razer Iskur-Black/Green-XL",
+        "price": "590",
+        "description": "Fully sculpted lumbar support Multi-layered synthetic leather High density foam cushions",
+        "supplier":"Razer",
+        "quantity":"200",
+        "img": "https://assets3.razerzone.com/9-KP5TQ7uBHLVi1ClnLkd4OxWc8=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhdd%2Fh76%2F9198275624990%2Fiskur-gallery-1500x1000-hero.jpg"
+    },
+    {
+        "name": "Razer Enki-Green",
+        "price": "400",
+        "description": "Designed for All-Day Comfort Built-in Lumbar Arch Optimized Cushion Density",
+        "supplier":"Razer",
+        "quantity":"110",
+        "img": "https://assets3.razerzone.com/S2lCh_kdbgSDDBMpPHe0ZgRi0jw=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe3%2Fh62%2F9249241727006%2F211021-enki-green-1500x1000-1.jpg"
+    },
+    {
+        "name": "Razer Iskur X-Hello Kitty and Friends Edition",
+        "price": "450",
+        "description": "Ergonomically designed for hardcore gaming Multi-layered synthetic leather High density foam cushions",
+        "supplier":"Razer",
+        "quantity":"80",
+        "img": "https://assets3.razerzone.com/Pcp1F4Kd45V8jbmSYZDEkETaMjE=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh3f%2Fhcb%2F9313026244638%2F220120-iskur-x-hello-kitty-1500x1000-1.jpg"
+    },
+    {
+        "name": "RAZER USB-C GAN CHARGER",
+        "price": "180",
+        "description": "No matter where you’re at, keep your devices primed for action with the Razer USB-C GaN Charger",
+        "supplier":"Razer",
+        "quantity":"300",
+        "img": "https://assets2.razerzone.com/images/pnx.assets/ebde98d1b9e0c71fa860cfa5a50ec1b8/razer-usb-c-gan-charger-hero-desktop.jpg"
+    },
+    {
+        "name": "Razer Chroma Light Strip Expansion Kit",
+        "price": "80",
+        "description": "Razer Chroma™ Light Strips Premium Light Diffusing Case Universal Compatibility with Any ARGB Device",
+        "supplier":"Razer",
+        "quantity":"400",
+        "img": "https://assets3.razerzone.com/fpQnQa9cnoX5F1RChbrXx2fK6ok=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh35%2Fh1d%2F9243054669854%2F210930-light-strip-expansion-kit-1500x1000-1.jpg"
+    },
+    {
+        "name": "RAZER THUNDERBOLT™ 4 CABLES",
+        "price": "40",
+        "description": "Unlock the speed you need with lightning-fast data transfer rates of up to 40 Gigabits per second with the Thunderbolt 4 cable.",
+        "supplier":"Razer",
+        "quantity":"700",
+        "img": "https://assets2.razerzone.com/images/pnx.assets/a978b6b4378138d4e0503a43dab1d7a2/razer-thunderbolt-4-cables-hero-desktop.jpg"
+    }
+]

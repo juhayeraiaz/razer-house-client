@@ -43,7 +43,7 @@ export default function App() {
                             <Link to='/about' className='text-reset text-decoration-none'>
                                 <p>About</p>
                             </Link>
-                            <Link to='/services' className='text-reset text-decoration-none'>
+                            <Link to='/items' className='text-reset text-decoration-none'>
                                 <p>Items</p>
                             </Link>
                             <Link to='/blogs' className='text-reset text-decoration-none'>

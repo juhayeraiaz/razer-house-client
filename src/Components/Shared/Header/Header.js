@@ -33,7 +33,7 @@ const Header = () => {
                                 user ?
                                     <div>
                                         <img className='rounded-circle' src={user.photoURL} width='35px' alt="" />
-                                        <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Log out</button>
+                                        <button className='btn btn-link text-dark text-decoration-none' onClick={handleSignOut}>Log out</button>
                                     </div>
 
 

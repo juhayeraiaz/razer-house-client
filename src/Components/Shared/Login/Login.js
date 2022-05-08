@@ -75,7 +75,7 @@ const Login = () => {
                 </Button>
             </Form>
             {errorElement}
-            <p>New to Picsquare? <Link to="/register" className='text-dark fw-bold pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+            <p>New here? <Link to="/register" className='text-dark fw-bold pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
             <p>Forget Password?<button className='btn btn-link text-dark fw-bold pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             <SocialLogin></SocialLogin>
             <ToastContainer />

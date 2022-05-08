@@ -7,7 +7,7 @@ const ItemDetail = () => {
 
     return (
         <div>
-            <h2>You are about to book: {item.name}</h2>
+            <h2 className='text-center'> Item Name: {item.name}</h2>
             <div className='text-center'>
                 <Link to={`/checkout/${itemId}`}>
                     <button className='btn btn-primary'>Proceed Checkout</button>
