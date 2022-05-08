@@ -31,6 +31,9 @@ const Map = () => {
                     </div>
                 </div>
             </section>
+            <div className='text-center mt-5 mb-5'>
+                <h2 className='fw-bold'>All Comments</h2>
+            </div>
         </>
     );
 };
