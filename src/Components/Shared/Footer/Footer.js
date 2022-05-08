@@ -2,11 +2,11 @@ import React from 'react';
 import './Footer.css'
 import logo from '../../../images/logo.png'
 import { Link } from 'react-router-dom';
-import { MDBFooter } from 'mdbreact';
+import { MDBFooter } from 'mdb-react-ui-kit';
 
 export default function App() {
     return (
-        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted footer-view'>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                 <div className='me-5 d-none d-lg-block'>
                     <span>Get connected with us on social networks:</span>
