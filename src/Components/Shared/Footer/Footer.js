@@ -6,7 +6,7 @@ import { MDBFooter } from 'mdb-react-ui-kit';
 
 export default function App() {
     return (
-        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted footer-view'>
+        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted footer-view mt-5'>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                 <div className='me-5 d-none d-lg-block'>
                     <span>Get connected with us on social networks:</span>
@@ -44,10 +44,7 @@ export default function App() {
                                 <p>About</p>
                             </Link>
                             <Link to='/services' className='text-reset text-decoration-none'>
-                                <p>Services</p>
-                            </Link>
-                            <Link to='/works' className='text-reset text-decoration-none'>
-                                <p>Works</p>
+                                <p>Items</p>
                             </Link>
                             <Link to='/blogs' className='text-reset text-decoration-none'>
                                 <p>Blogs</p>

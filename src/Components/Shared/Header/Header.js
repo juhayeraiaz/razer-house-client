@@ -27,8 +27,7 @@ const Header = () => {
                         </Nav>
                         <Nav className='mt-4 text-center mt-md-0'>
                             <Nav.Link as={Link} to='blogs'>Blogs</Nav.Link>
-                            <Nav.Link as={Link} to='works'>Works</Nav.Link>
-                            <Nav.Link as={Link} to='services'>Services</Nav.Link>
+                            <Nav.Link as={Link} to='items'>Items</Nav.Link>
                             <Nav.Link as={Link} to='about'>About</Nav.Link>
                             {
                                 user ?

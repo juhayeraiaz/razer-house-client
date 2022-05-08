@@ -17,7 +17,7 @@ export default function App() {
                             <div className='carousel-text'>
                                 <p className='text-white-50'>Welcome to</p>
                                 <h1 className='carousel-title fw-bolder text-white'>Razer House</h1>
-                                <p className='text-white-50'>We provide the best quality chairs accross the world. <br /> Our chairs come in many designs and category.</p>
+                                <p className='text-white-50'>We provide the best quality gaming chairs and accessories accross the world. <br /> Our products come in many designs and category.</p>
                                 <Link to='/works'><button className='btn btn-outline-light rounded-pill  fw-bold px-4 py-2'>More Products</button></Link>
                                 <Link to='/about'><button className='btn btn-outline-dark text-white rounded-pill fw-bold  ms-3 px-4 py-2'>About us</button></Link>
                             </div>
