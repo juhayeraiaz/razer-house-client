@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useItems from '../../hooks/useItems';
 
 const ManageInventory = () => {
@@ -27,6 +28,7 @@ const ManageInventory = () => {
                     <h5>{item.name} <button className='btn btn-outline-dark' onClick={() => handleDelete(item._id)}>X</button></h5>
                 </div>)
             }
+            <Link to='/add'><button className='btn btn-outline-dark'>Add items</button></Link>
         </div>
     );
 };
