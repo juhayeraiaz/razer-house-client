@@ -28,7 +28,7 @@ const ManageInventory = () => {
                     <h5>{item.name} <button className='btn btn-outline-dark' onClick={() => handleDelete(item._id)}>X</button></h5>
                 </div>)
             }
-            <Link to='/add'><button className='btn btn-outline-dark'>Add items</button></Link>
+            <Link to='/add'><button className='btn btn-outline-dark'>Add More items</button></Link>
         </div>
     );
 };
