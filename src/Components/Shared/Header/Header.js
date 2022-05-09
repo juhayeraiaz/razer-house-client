@@ -31,10 +31,12 @@ const Header = () => {
                             <Nav.Link as={Link} to='about'>About</Nav.Link>
                             {
                                 user ?
-                                    <div>
+                                    <>
+                                        <Nav.Link as={Link} to='manage'>Manage</Nav.Link>
+                                        <Nav.Link as={Link} to='add'>Add item</Nav.Link>
                                         <img className='rounded-circle' src={user.photoURL} width='35px' alt="" />
                                         <button className='btn btn-link text-dark text-decoration-none' onClick={handleSignOut}>Log out</button>
-                                    </div>
+                                    </>
 
 
                                     :

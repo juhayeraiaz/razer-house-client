@@ -1,17 +1,17 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
-const useItemDetail = itemId => {
-    const [item, setItem] = useState({});
+// const useItemDetail = id => {
+//     const [item, setItem] = useState({});
 
-    useEffect(() => {
-        const url = `https://vast-river-52657.herokuapp.com/inventory/${itemId}`;
-        console.log(url);
-        fetch(url)
-            .then(res => res.json())
-            .then(data => setItem(data));
+//     useEffect(() => {
+//         const url = `https://vast-river-52657.herokuapp.com/inventory/${id}`;
+//         console.log(url);
+//         fetch(url)
+//             .then(res => res.json())
+//             .then(data => setItem(data));
 
-    }, [itemId]);
-    return [item]
-}
+//     }, [id]);
+//     return [item]
+// }
 
-export default useItemDetail;
+// export default useItemDetail;

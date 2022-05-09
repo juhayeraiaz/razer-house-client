@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import useItems from '../hooks/useItems';
 import Item from './Item/Item';
 import './Items.css';
