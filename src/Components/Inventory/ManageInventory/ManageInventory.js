@@ -15,7 +15,7 @@ const ManageInventory = () => {
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);
-                    const remaining = items.filter(service => service._id !== id);
+                    const remaining = items.filter(item => item._id !== id);
                     setItems(remaining);
                 })
         }

@@ -9,7 +9,7 @@ const ItemDetail = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setItem(data));
-    }, [])
+    }, [id])
     const handleDeliver = event => {
         const quantity = item.quantity - 1;
 
@@ -26,12 +26,12 @@ const ItemDetail = () => {
         })
             .then(res => res.json())
             .then(data => {
-                console.log('success', data);
+                alert('Item Delivered');
                 event.target.reset();
             })
     }
     const handleRestock = event => {
-        event.preventDefault();
+        // event.preventDefault();
         const number = event.target.number.value;
         const quantity = item.quantity + parseInt(number);
 
