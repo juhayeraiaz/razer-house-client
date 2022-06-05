@@ -9,7 +9,7 @@ const ItemDetail = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setItem(data));
-    }, [id])
+    }, [item])
     const handleDeliver = event => {
         const quantity = item.quantity - 1;
 
@@ -31,7 +31,7 @@ const ItemDetail = () => {
             })
     }
     const handleRestock = event => {
-        // event.preventDefault();
+        event.preventDefault();
         const number = event.target.number.value;
         const quantity = item.quantity + parseInt(number);
 
