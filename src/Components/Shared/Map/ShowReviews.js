@@ -14,7 +14,7 @@ const ShowReviews = () => {
     return (
         <div>
             <h1 className='text-center fw-bold my-5'>User Reviews ({reviews.length})</h1>
-            <div className='bg-dark bg-opacity-25'>
+            <div className='bg-dark bg-opacity-25 container-fluid'>
                 <Carousel>
                     {reviews.map(review => <Carousel.Item> <ReviewCard
                         key={review._id}
