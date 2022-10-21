@@ -1,5 +1,6 @@
 import { Carousel } from 'react-bootstrap';
 import { useQuery } from 'react-query';
+import './ShowReviews.css'
 import Loading from '../Loading/Loading';
 import ReviewCard from './ReviewCard';
 
@@ -14,12 +15,14 @@ const ShowReviews = () => {
     return (
         <div>
             <h1 className='text-center fw-bold my-5'>User Reviews ({reviews.length})</h1>
-            <div className='bg-dark bg-opacity-25 container-fluid'>
+            <div className='bg-secondary bg-opacity-25 container-fluid'>
                 <Carousel>
-                    {reviews.map(review => <Carousel.Item> <ReviewCard
-                        key={review._id}
-                        review={review}
-                    ></ReviewCard></Carousel.Item>)}
+                    {reviews.map(review => <Carousel.Item>
+                        <ReviewCard
+                            key={review._id}
+                            review={review}
+                        ></ReviewCard>
+                    </Carousel.Item>)}
                 </Carousel>
             </div>
         </div>

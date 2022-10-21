@@ -13,7 +13,7 @@ const Item = ({ item }) => {
         <div className='card mb-3 border-0 rounded shadow bg-light'>
             <div className='row g-0'>
                 <div className='col-md-7'>
-                    <img className='img-card' src={img} alt="" />
+                    <img className='imgs-card' src={img} alt="" />
                 </div>
                 <div className='col-md-5'>
                     <div className='card-body'>

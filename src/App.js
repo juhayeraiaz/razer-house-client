@@ -12,6 +12,9 @@ import ItemDetail from './Components/Inventory/ItemDetail/ItemDetail';
 import ManageInventory from './Components/Inventory/ManageInventory/ManageInventory';
 import AddItem from './Components/Inventory/AddItem/AddItem';
 import About from './Components/About/About';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+
 
 function App() {
   return (
@@ -31,6 +34,7 @@ function App() {
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

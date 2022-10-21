@@ -22,7 +22,7 @@ const ManageInventory = () => {
     }
     return (
         <div className='w-50 mx-auto mt-5 mb-5'>
-            <h2>Manage your Inventory</h2>
+            <h2>Manage Inventory</h2>
             {
                 items.map(item => <div key={item._id}>
                     <h5>{item.name} <button className='btn btn-outline-dark' onClick={() => handleDelete(item._id)}>X</button></h5>

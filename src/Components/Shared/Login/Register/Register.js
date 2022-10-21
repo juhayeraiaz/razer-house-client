@@ -36,7 +36,9 @@ const Register = () => {
         await updateProfile({ displayName: name });
         navigate('/home');
     }
-
+    console.log(user);
+    console.log(error);
+    console.log(updateError);
     return (
         <div className='register-form mb-5 mt-4'>
             <h2 className='text-center mt-4'>Please Register</h2>
