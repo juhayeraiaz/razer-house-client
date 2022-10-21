@@ -72,7 +72,7 @@ export default function App() {
 
             <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                 © 2022 Copyright:
-                <a className='text-reset fw-bold text-decoration-none' href='#'>
+                <a className='text-reset fw-bold text-decoration-none' href='/#'>
                     Razerhouse.com
                 </a>
             </div>
