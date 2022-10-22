@@ -31,21 +31,19 @@ const GetReview = () => {
     }
     return (
         <div>
-            <div>
-                <form onSubmit={handleSubmit(onSubmit)} className='py-5 card card-body shadow-sm rounded-4'>
-                    <input required className='border text-light text-sm rounded p-2 mb-4 my-3' type="text" placeholder="name" {...register("name", {})} />
-                    <textarea required className='border text-black rounded p-3 mb-4 my-3' {...register("description", {})} />
-                    <div className='mx-auto'>
-                        <ReactStars
-                            count={5}
-                            onChange={ratingChanged}
-                            size={34}
-                            activeColor="#ffd700"
-                        />
-                    </div>
-                    <input className='btn btn-outline-dark mt-5' type="submit" />
-                </form>
-            </div>
+            <form onSubmit={handleSubmit(onSubmit)} className='py-5 card card-body shadow-sm rounded'>
+                <input required className='border text-black text-sm rounded p-2 mb-4 my-3' type="text" placeholder="name" {...register("name", {})} />
+                <textarea required className='border text-black rounded p-3 mb-4 my-3' {...register("description", {})} />
+                <div className='mx-auto'>
+                    <ReactStars
+                        count={5}
+                        onChange={ratingChanged}
+                        size={34}
+                        activeColor="#ffd700"
+                    />
+                </div>
+                <input className='btn btn-dark mt-5' type="submit" />
+            </form>
         </div>
     );
 };
