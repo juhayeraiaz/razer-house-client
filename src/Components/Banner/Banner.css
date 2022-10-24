@@ -1,16 +1,16 @@
 .first-carousel-item {
-    height: 77vh;
+    height: 101vh;
     background: url('./slider_1.jpg') center/cover no-repeat;
     position: relative;
 }
 
 .second-carousel-item {
-    height: 77vh;
+    height: 101vh;
     background: url('./slider_2.jpg') center/cover no-repeat;
     position: relative;
 }
 .third-carousel-item {
-    height: 77vh;
+    height: 101vh;
     background: url('./slider_3.jpg') center/cover no-repeat;
     position: relative;
 }
@@ -23,7 +23,7 @@
 }
 
 .carousel-text {
-    margin-top: 8rem;
+    margin-top: 13rem;
     margin-left: 9rem;
 }
 
@@ -32,7 +32,7 @@
     .first-carousel-item,
     .second-carousel-item,
     .third-carousel-item {
-        height: 60vh;
+        height: 100vh;
     }
 
     .carousel-title {
@@ -43,7 +43,7 @@
     }
 
     .carousel-text {
-        margin-top: 6rem;
+        margin-top: 13rem;
         margin-left: 2.5rem;
     }
 }
