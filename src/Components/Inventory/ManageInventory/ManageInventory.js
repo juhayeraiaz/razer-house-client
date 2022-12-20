@@ -8,7 +8,7 @@ const ManageInventory = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure?');
         if (proceed) {
-            const url = `https://vast-river-52657.herokuapp.com/inventory/${id}`;
+            const url = `https://razer-house.onrender.com/inventory/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

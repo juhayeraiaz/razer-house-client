@@ -16,7 +16,7 @@ const GetReview = () => {
             description: data.description,
             rating: rating
         }
-        fetch(`https://vast-river-52657.herokuapp.com/reviews`, {
+        fetch(`https://razer-house.onrender.com/reviews`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

@@ -6,7 +6,7 @@ const AddItem = () => {
 
     const onSubmit = data => {
         console.log(data);
-        const url = `https://vast-river-52657.herokuapp.com/inventory/`;
+        const url = `https://razer-house.onrender.com/inventory/`;
         fetch(url, {
             method: 'POST',
             headers: {

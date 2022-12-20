@@ -24,7 +24,7 @@ const Header = () => {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" variant={offset <= 400 ? 'dark' : 'light'} bg={offset <= 400 ? '' : 'light'} sticky='top' className='headr'>
+            <Navbar collapseOnSelect expand="lg" variant={offset <= 250 ? 'dark' : 'light'} bg={offset <= 250 ? '' : 'light'} sticky='top'>
                 <Container>
                     <Navbar.Brand as={Link} to='home'><img
                         src={logo}
@@ -37,18 +37,17 @@ const Header = () => {
                         <Nav className="me-auto">
                         </Nav>
                         <Nav className='mt-4 text-center mt-md-0'>
-                            <Nav.Link as={Link} className='mx-0 mx-md-2' style={offset <= 400 ? { color: 'white' } : { color: 'black' }} to='items'>Items</Nav.Link>
-                            <Nav.Link as={Link} className='mx-0 mx-md-2' style={offset <= 400 ? { color: 'white' } : { color: 'black' }} to='about'>About</Nav.Link>
+                            <Nav.Link as={Link} className='mx-0 mx-md-2 fs-5' style={offset <= 250 ? { color: '#000' } : { color: 'black' }} to='items'>Items</Nav.Link>
+                            <Nav.Link as={Link} className='mx-0 mx-md-2 fs-5' style={offset <= 250 ? { color: '#000' } : { color: 'black' }} to='about'>About</Nav.Link>
                             {
                                 user ?
                                     <>
-                                        <Nav.Link as={Link} className='mx-0 mx-md-2' style={offset <= 400 ? { color: 'white' } : { color: 'black' }} to='manage'>Manage</Nav.Link>
-                                        <Nav.Link as={Link} className='mx-0 mx-md-2' style={offset <= 400 ? { color: 'white' } : { color: 'black' }} to='add'>Add item</Nav.Link>
-                                        <img className='rounded-circle' src={user.photoURL} width='35px' alt="" />
-                                        <Nav.Link className='mx-0 mx-md-2' style={offset <= 400 ? { color: 'white' } : { color: 'black' }} onClick={handleSignOut}>Log out</Nav.Link>
+                                        <Nav.Link as={Link} className='mx-0 mx-md-2 fs-5' style={offset <= 250 ? { color: '#000' } : { color: 'black' }} to='manage'>Manage</Nav.Link>
+                                        <Nav.Link as={Link} className='mx-0 mx-md-2 fs-5' style={offset <= 250 ? { color: '#000' } : { color: 'black' }} to='add'>Add item</Nav.Link>
+                                        <Nav.Link className='mx-0 mx-md-2 fs-5' style={offset <= 250 ? { color: '#000' } : { color: 'black' }} onClick={handleSignOut}>Log out</Nav.Link>
                                     </>
                                     :
-                                    <Nav.Link as={Link} className='mx-0 mx-md-2' style={offset <= 400 ? { color: 'white' } : { color: 'black' }} to="login">
+                                    <Nav.Link as={Link} className='mx-0 mx-md-2 fs-5' style={offset <= 250 ? { color: '#000' } : { color: 'black' }} to="login">
                                         Login
                                     </Nav.Link>}
                         </Nav>

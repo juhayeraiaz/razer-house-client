@@ -6,7 +6,7 @@ import ReviewCard from './ReviewCard';
 
 const ShowReviews = () => {
 
-    const { data: reviews, isLoading, refetch } = useQuery('reviews', () => fetch('https://vast-river-52657.herokuapp.com/reviews',)
+    const { data: reviews, isLoading, refetch } = useQuery('reviews', () => fetch('https://razer-house.onrender.com/reviews',)
         .then(res => res.json()))
     refetch()
     if (isLoading) {

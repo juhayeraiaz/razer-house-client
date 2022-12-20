@@ -1,8 +1,11 @@
-.headr{
-    margin-bottom: -5.5rem;
-}
+
 @media screen and (max-width: 576px) {
     .nav-collapse{
-        margin-bottom: -9rem;
+        margin-bottom: -18rem;
+        filter: drop-shadow(2px 3px 2px rgb(255, 255, 255));
+        height: 17rem;
     }
+        .navbar-toggler{
+            background-color: rgba(43, 43, 43, 0.121) !important;
+        }
 }

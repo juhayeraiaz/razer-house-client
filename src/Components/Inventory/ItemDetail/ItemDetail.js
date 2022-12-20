@@ -7,7 +7,7 @@ const ItemDetail = () => {
     const { id } = useParams();
     const [item, setItem] = useState({});
     useEffect(() => {
-        const url = `https://vast-river-52657.herokuapp.com/inventory/${id}`;
+        const url = `https://razer-house.onrender.com/inventory/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setItem(data));
@@ -18,7 +18,7 @@ const ItemDetail = () => {
         const updatedUser = { quantity };
 
         // send data to the server
-        const url = `https://vast-river-52657.herokuapp.com/inventory/${id}`;
+        const url = `https://razer-house.onrender.com/inventory/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {
@@ -41,7 +41,7 @@ const ItemDetail = () => {
             const updatedUser = { quantity };
 
             // send data to the server
-            const url = `https://vast-river-52657.herokuapp.com/inventory/${id}`;
+            const url = `https://razer-house.onrender.com/inventory/${id}`;
             fetch(url, {
                 method: 'PUT',
                 headers: {

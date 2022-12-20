@@ -4,7 +4,7 @@
 //     const [item, setItem] = useState({});
 
 //     useEffect(() => {
-//         const url = `https://vast-river-52657.herokuapp.com/inventory/${id}`;
+//         const url = `https://razer-house.onrender.com/inventory/${id}`;
 //         console.log(url);
 //         fetch(url)
 //             .then(res => res.json())

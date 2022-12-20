@@ -5,7 +5,7 @@ import { Carousel } from 'react-bootstrap';
 
 export default function App() {
     return (
-        <div className='mb-5'>
+        <div className='mb-5 banner-size'>
             <Carousel>
                 <Carousel.Item className='first-carousel-item'>
                     <div className='carousel-text px-4'>

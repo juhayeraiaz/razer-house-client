@@ -5,7 +5,7 @@ import './ReviewCard.css'
 
 const ReviewCard = ({ review }) => {
     return (
-        <div class="mx-auto my-5 align-items-center d-flex flex-column overflow-hidden p-4" style={{ width: '34vmax', height: '24rem' }}>
+        <div className="mx-auto my-5 align-items-center d-flex flex-column overflow-hidden p-4" style={{ width: '34vmax', height: '24rem' }}>
             <img src={image} style={{ width: '7vmax' }} alt="" />
             <div className='card-body'>
                 <div className="text-center d-flex flex-column align-items-center mt-3">

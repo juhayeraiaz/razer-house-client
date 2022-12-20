@@ -23,10 +23,12 @@
 }
 
 .carousel-text {
-    margin-top: 13rem;
+    margin-top: 16rem;
     margin-left: 9rem;
 }
-
+.banner-size{
+    margin-top: -5.5rem;
+}
 @media screen and (max-width: 576px) {
 
     .first-carousel-item,
@@ -43,7 +45,7 @@
     }
 
     .carousel-text {
-        margin-top: 13rem;
+        margin-top: 16rem;
         margin-left: 2.5rem;
     }
 }
